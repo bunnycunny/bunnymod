@@ -210,12 +210,6 @@
 		},
 		{ "hook_id" : "lib/setups/gamesetup", "script_path" : "content/scripts/xray.lua"
 		},
-		{ "hook_id" : "lib/managers/menumanagerpd2", "script_path" : "content/scripts/wep skin unlocker.lua"
-		},
-		{ "hook_id" : "lib/managers/blackmarketmanager", "script_path" : "content/scripts/wep skin unlocker.lua"
-		},
-		{ "hook_id" : "lib/tweak_data/guitweakdata", "script_path" : "content/scripts/wep skin unlocker.lua"
-		},
 		{ "hook_id" : "lib/network/base/basenetworksession", "script_path" : "content/scripts/spoofequipment.lua"
 		},
 		{ "hook_id" : "lib/managers/dlcmanager", "script_path" : "content/scripts/persisthook.lua"
