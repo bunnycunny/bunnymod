@@ -1,0 +1,138 @@
+{
+  "config": {
+    "afk": {
+      "annoucechat": true,
+      "autoafk": false,
+      "autoafktimer": 90,
+      "default_auto_afk_time": 90,
+      "default_idle_time": 120,
+      "default_teleport_time": 0.3,
+      "jail": true,
+      "jailtime": 9999,
+      "jailtimenotify": 99999,
+      "path": "mods/hook/content/scripts/CommandManager/",
+      "teleport": false,
+      "timerdecimals": 1
+    },
+    "armor_buff": false,
+    "armor_skins": true,
+    "auto_kingpin": false,
+    "automsg": {
+      "checks": {
+        "host_msg_recived": false,
+        "safe_msg_recived": false
+      },
+      "client": false,
+      "clientmsg": "reset",
+      "enabled": true,
+      "host": true,
+      "hostmsg": "--- Welcome to the lobby "
+    },
+    "autosecure": {
+      "level_list": {
+        "branchbank": {
+          "position": [ -13100, 900, 100 ]
+        },
+        "cane": {
+          "interaction": "hold_pku_present",
+          "position": [ 7837, -991, -475.28 ]
+        },
+        "crojob2": {
+          "position": [ -3907, 9638, -118 ]
+        },
+        "election_day_2": {
+          "position": [ -175, 4125, 125 ]
+        },
+        "election_day_3_skip1": {
+          "position": [ -1842, -6047, 88.331 ]
+        },
+        "framing_frame_1": {
+          "position": [ 1154, -4298, 222 ]
+        },
+        "framing_frame_3": {
+          "position": [ -1079, 6491, 4833 ]
+        },
+        "gallery": {
+          "position": [ 1154, -4298, 222 ]
+        },
+        "kosugi": {
+          "position": [ -2184, -2374, 1180 ]
+        },
+        "nail": {
+          "position": [ -10356.9, -322.8, -3020.3 ]
+        },
+        "rat": {
+          "interaction": "taking_meth",
+          "position": [ 5700, -10625, 100 ]
+        },
+        "roberts": {
+          "position": [ -8025, -3837, 285.86 ]
+        }
+      }
+    },
+    "crosshair": {
+      "b": 0,
+      "g": 255,
+      "h": 7,
+      "r": 0,
+      "w": 7
+    },
+    "custom_stoic": false,
+    "double_jump": true,
+    "fake_level": 100,
+    "fake_name": "Kebab",
+    "fake_rank": 305,
+    "filter_modded_lobbies": false,
+    "first_load": true,
+    "intimidate_units": true,
+    "killloop": {
+      "speed": 1
+    },
+    "menucolors_button": {
+      "b": 20,
+      "g": 255,
+      "r": 57
+    },
+    "menucolors_hover": {
+      "b": 235,
+      "g": 206,
+      "r": 135
+    },
+    "noclip": {
+      "axis_move": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "speed": 3
+    },
+    "package_loading": false,
+    "perk_buff": false,
+    "preplanning_cost": false,
+    "preplanning_matter": true,
+    "real_level": 100,
+    "real_name": "✌Playhouse✌",
+    "real_rank": 305,
+    "reconnect_id": "109775240923504565",
+    "remove_free_jobs": true,
+    "sentry_auto_pickup": true,
+    "sentry_buffs": false,
+    "sentry_crit": true,
+    "show_experience_hud": true,
+    "sixth_sense_buff": true,
+    "spoof_level": false,
+    "spoof_rank": false,
+    "spoofinventory": false,
+    "trainer_buffs": true,
+    "trainer_carry_specials_buffs": true,
+    "trainer_job_heat": false,
+    "trainer_melee_damage_buffs": true,
+    "unlock_all_skills": false,
+    "unlock_dlcs": true,
+    "unlock_sentry_skills": true,
+    "weapon_skins": true,
+    "weapon_tweak_ammo_buffs": false,
+    "weapon_tweak_buffs": false,
+    "weapon_tweak_sniper_shake_buffs": true
+  }
+}

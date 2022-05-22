@@ -1,0 +1,50 @@
+{
+  "config": {
+    "mod_list": [ {
+      "enable": false,
+      "name": "Simple Mod Updater"
+    }, {
+      "enable": false,
+      "name": "SuperBLT"
+    }, {
+      "enable": false,
+      "name": "Lobby Settings"
+    }, {
+      "enable": false,
+      "name": "XP Bank"
+    }, {
+      "enable": false,
+      "name": "Advance Anti Crash"
+    }, {
+      "enable": false,
+      "name": "HD Masks"
+    }, {
+      "enable": false,
+      "name": "The Cooker"
+    }, {
+      "enable": false,
+      "name": "Perk Logic"
+    }, {
+      "enable": false,
+      "name": "WolfHUD"
+    }, {
+      "enable": false,
+      "name": "SaveEquipment Reborn"
+    }, {
+      "enable": false,
+      "name": "Chat Info"
+    }, {
+      "enable": false,
+      "name": "Equipment Stacker"
+    }, {
+      "enable": false,
+      "name": "Lobby Player Info"
+    }, {
+      "enable": false,
+      "name": "Chat Translator"
+    }, {
+      "enable": false,
+      "name": "XP Briefings"
+    } ]
+  }
+}
