@@ -163,18 +163,6 @@ local buff_table = {
 		trainer_buffs()
 		managers.mission._fading_debug_output:script().log(string.format("%s", (CommandManager.config["package_loading"] and "(ON)" or "(OFF)")), Color.green)
 	end },
-	{ text = string.format("Unlock weapon skins - ON/OFF - %s", (CommandManager.config["weapon_skins"] and "(ON)" or "(OFF)")), callback_func = function() 
-		CommandManager.config.weapon_skins = not CommandManager.config.weapon_skins
-		CommandManager:Save()
-		trainer_buffs()
-		managers.mission._fading_debug_output:script().log(string.format("%s", (CommandManager.config["weapon_skins"] and "(ON)" or "(OFF)")), Color.green)
-	end },
-	{ text = string.format("Unlock armor skins - ON/OFF - %s", (CommandManager.config["armor_skins"] and "(ON)" or "(OFF)")), callback_func = function() 
-		CommandManager.config.armor_skins = not CommandManager.config.armor_skins
-		CommandManager:Save()
-		trainer_buffs()
-		managers.mission._fading_debug_output:script().log(string.format("%s", (CommandManager.config["armor_skins"] and "(ON)" or "(OFF)")), Color.green)
-	end },
 	{ text = string.format("Unlock dlcs - ON/OFF - %s", (CommandManager.config["unlock_dlcs"] and "(ON)" or "(OFF)")), callback_func = function() 
 		CommandManager.config.unlock_dlcs = not CommandManager.config.unlock_dlcs
 		CommandManager:Save()
