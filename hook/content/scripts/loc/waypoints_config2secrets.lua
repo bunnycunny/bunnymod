@@ -1,0 +1,16 @@
+gage_assignment
+diamond_single_pickup_axis
+hold_pick_up_turtle
+press_pick_up
+ring_band
+glc_hold_take_handcuffs
+hold_take_missing_animal_poster
+press_take_folder
+take_confidential_folder_icc
+take_jfr_briefcase
+take_confidential_folder
+cas_open_briefcase
+hold_take_toy
+invisible_interaction_open
+xm20_int_mask
+pick_up_item

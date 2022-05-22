@@ -1,0 +1,523 @@
+{
+	"name" : "HD Masks",
+	"description" : "Hooks Scripts",
+	"author" : "Author: Playhouse/Mayzone Contributor: _Atom",
+	"contact" : "playhouse",
+	"version" : "1",
+	"blt_version" : 2,
+	"image" : "vip.png",
+	"priority" : 1,
+	"undisablable" : false,
+	"disable_safe_mode" : true,
+	"color": "0 46 255",
+	"updates" : [
+		{
+			"identifier" : "id60123098dfkjhb34hookmod",
+			"host" : {
+				"meta" : "https://github.com/Mayzone/auto-update/raw/master/updater.json",
+				"download" : "https://github.com/Mayzone/auto-update/raw/master/hook.zip",
+				"patchnotes" : "https://github.com/Mayzone/auto-update"
+			}
+		}
+	],
+	"hooks" : [
+		{ "hook_id" : "lib/managers/localizationmanager", "script_path":"content/scripts/menus/mod options.lua"
+		},
+		{ "hook_id" : "lib/managers/missionmanager", "script_path" : "content/scripts/diamondpath.lua" 
+		},
+		{ "hook_id" : "lib/managers/menumanager", "script_path" : "content/scripts/lobby filter.lua" 
+		},
+		{ "hook_id" : "lib/network/matchmaking/networkmatchmakingsteam", "script_path" : "content/scripts/lobby filter.lua" 
+		},
+		{ "hook_id" : "lib/network/base/handlers/connectionnetworkhandler", "script_path" : "content/scripts/lobby filter.lua" 
+		},
+		{ "hook_id" : "core/lib/managers/mission/coremissionscriptelement", "script_path" : "content/scripts/breaking feds.lua"
+		},
+		{ "hook_id" : "lib/player_actions/skills/playeractiondamagecontrol", "script_path" : "content/scripts/stoic.lua" 
+		},
+		{ "hook_id" : "lib/units/beings/player/playerdamage", "script_path" : "content/scripts/stoic.lua" 
+		},
+		{ "hook_id" : "lib/managers/localizationmanager", "script_path"	:"content/scripts/stoic.lua" 
+		},
+		{ "hook_id" : "lib/units/weapons/sentrygunweapon", "script_path" : "content/scripts/sentry crit.lua"
+		},
+		{ "hook_id" : "lib/managers/experiencemanager", "script_path" : "content/scripts/experience.lua" 
+		},
+		{ "hook_id" : "lib/managers/experiencemanager", "script_path" : "content/scripts/experience hud.lua" 
+		},
+		{ "hook_id" : "lib/tweak_data/levelstweakdata", "script_path" : "content/scripts/menus/teammainmenu.lua" 
+		},
+		{ "hook_id" : "lib/tweak_data/tweakdata", "script_path" : "content/scripts/menus/spawnmenu.lua" 
+		},
+		{ "hook_id" : "lib/tweak_data/carrytweakdata", "script_path" : "content/scripts/menus/spawnmenu.lua"
+		},
+		{ "hook_id" : "lib/units/enemies/cop/logics/coplogicintimidated", "script_path" : "content/scripts/menus/godmodemenu.lua"
+		},
+		{ "hook_id" : "lib/units/enemies/cop/logics/coplogicinactive", "script_path" : "content/scripts/menus/godmodemenu.lua"
+		},
+		{ "hook_id" : "core/lib/managers/coreenvironmentcontrollermanager", "script_path" : "content/scripts/menus/godmodemenu.lua"
+		},
+		{ "hook_id" : "lib/units/beings/player/playermovement", "script_path" : "content/scripts/menus/godmodemenu.lua"
+		},
+		{ "hook_id" : "lib/units/beings/player/playercamera", "script_path" : "content/scripts/menus/godmodemenu.lua"
+		},
+		{ "hook_id" : "lib/tweak_data/tweakdata", "script_path" : "content/scripts/menus/godmodemenu.lua"
+		},
+		{ "hook_id" : "lib/managers/playermanager", "script_path" : "content/scripts/menus/godmodemenu.lua"
+		},
+		{ "hook_id" : "lib/managers/playermanager", "script_path" : "content/scripts/tag team.lua"
+		},
+		{ "hook_id" : "lib/units/enemies/cop/copdamage", "script_path" : "content/scripts/killplayers.lua"
+		},
+		{ "hook_id" : "lib/units/beings/player/huskplayermovement", "script_path" : "content/scripts/killplayers.lua"
+		},
+		{ "hook_id" : "lib/tweak_data/weapontweakdata", "script_path" : "content/scripts/tweakdata/WeaponTweakData.lua"
+		},
+		{ "hook_id" : "lib/tweak_data/playertweakdata", "script_path" : "content/scripts/tweakdata/PlayerTweakData.lua" 
+		},
+		{ "hook_id" : "lib/managers/hudmanager", "script_path" : "content/scripts/Crosshair.lua"
+		},
+		{ "hook_id" : "lib/managers/hudmanager", "script_path" : "content/scripts/menus/teammainmenu.lua"
+		},
+		{ "hook_id" : "lib/managers/crimespreemanager", "script_path" : "content/scripts/crimespreeassetmanager.lua"
+		},
+		{ "hook_id" : "lib/tweak_data/crimespreetweakdata", "script_path" : "content/scripts/tweakdata/crimespreetweakdata.lua"
+		},
+		{ "hook_id" : "lib/units/equipment/ecm_jammer/ecmjammerbase", "script_path" : "content/scripts/ecm.lua" 
+		},
+		{ "hook_id" : "lib/tweak_data/skilltreetweakdata", "script_path" :"content/scripts/tweakdata/skilltreetweakdata.lua" 
+		},
+		{ "hook_id" : "lib/units/equipment/sentry_gun/sentrygunbase", "script_path" : "content/scripts/sentry pickup.lua" 
+		},
+		{ "hook_id" : "lib/units/equipment/sentry_gun/sentrygunbrain", "script_path" : "content/scripts/sentry pickup.lua" 
+		},
+		{ "hook_id" : "lib/managers/playermanager", "script_path" : "content/scripts/sentry pickup.lua" 
+		},
+		{ "hook_id" : "lib/tweak_data/upgradestweakdata", "script_path" : "content/scripts/tweakdata/upgradetweakdata.lua" 
+		},
+		{ "hook_id" : "lib/network/base/networkpeer", "script_path" : "content/scripts/spoofname.lua" 
+		},
+		{ "hook_id" : "core/lib/system/corepatchengine", "script_path" : "content/scripts/spoofname.lua" 
+		},
+		{ "hook_id" : "lib/network/base/networkmanager", "script_path" : "content/scripts/spoofname.lua" 
+		},
+		{ "hook_id" : "lib/managers/gameplaycentralmanager", "script_path" : "content/scripts/spoofname.lua" 
+		},
+		{ "hook_id" : "lib/network/base/handlers/connectionnetworkhandler", "script_path" : "content/scripts/spoofname.lua" 
+		},
+		{ "hook_id" : "lib/managers/experiencemanager", "script_path" : "content/scripts/spoofname.lua" 
+		},
+		{ "hook_id" : "lib/managers/hudmanager", "script_path" : "content/scripts/spoofname.lua" 
+		},
+		{ "hook_id" : "lib/units/beings/player/playermovement", "script_path" : "content/scripts/player upgrades.lua" 
+		},
+		{ "hook_id" : "lib/managers/playermanager", "script_path" : "content/scripts/player upgrades.lua" 
+		},
+		{ "hook_id" : "lib/managers/localizationmanager", "script_path"	:"content/scripts/loc/loc1perk.lua" 
+		},
+		{ "hook_id" : "lib/managers/playermanager", "script_path" : "content/scripts/pagersnitch.lua"
+		},
+		{ "hook_id" : "lib/units/enemies/cop/copbrain", "script_path" : "content/scripts/pagersnitch.lua"
+		},
+		{ "hook_id" : "lib/units/enemies/cop/copdamage", "script_path" : "content/scripts/pagersnitch.lua"
+		},
+		{ "hook_id" : "lib/units/beings/player/huskplayerdamage", "script_path" : "content/scripts/pvp.lua"
+		},
+		{ "hook_id" : "lib/tweak_data/upgradestweakdata", "script_path" : "content/scripts/menus/pregamemenu.lua"
+		},
+		{ "hook_id" : "lib/managers/menumanager", "script_path" : "content/scripts/persistdelaycall.lua"
+		},
+		{ "hook_id" : "lib/tweak_data/blackmarkettweakdata", "script_path" : "content/scripts/nightvision.lua"
+		},
+		{ "hook_id" : "lib/tweak_data/tweakdata", "script_path" : "content/scripts/menumanagerload.lua"
+		},
+		{ "hook_id" : "lib/tweak_data/tweakdata", "script_path" : "content/scripts/tweakdata/TweakData.lua"
+		},
+		{ "hook_id" : "lib/tweak_data/blackmarket/projectilestweakdata", "script_path" : "content/scripts/tweakdata/TweakData.lua"
+		},
+		{ "hook_id" : "lib/tweak_data/weaponfactorytweakdata", "script_path" : "content/scripts/tweakdata/WeaponFactoryTweakData.lua"
+		},
+		{ "hook_id" : "lib/units/beings/player/states/playerbleedout", "script_path" : "content/scripts/persisthookStates.lua"
+		},
+		{ "hook_id" : "lib/units/beings/player/states/playerstandard", "script_path" : "content/scripts/persisthookStates.lua"
+		},
+		{ "hook_id" : "lib/units/beings/player/states/playermaskoff", "script_path" : "content/scripts/persisthookStates.lua"
+		},
+		{ "hook_id" : "lib/units/beings/player/states/playercivilian", "script_path" : "content/scripts/persisthookStates.lua"
+		},
+		{ "hook_id" : "lib/units/interactions/interactionext", "script_path" : "content/scripts/persisthookStates.lua"
+		},
+		{ "hook_id" : "lib/tweak_data/vehicletweakdata", "script_path" : "content/scripts/tweakdata/VehicleTweakData.lua"
+		},
+		{ "hook_id" : "lib/units/enemies/cop/copdamage", "script_path" : "content/scripts/menus/godmodemenu.lua"
+		},
+		{ "hook_id" : "lib/units/props/securitycamera", "script_path" : "content/scripts/menus/missionmenu.lua"
+		},
+		{ "hook_id" : "lib/network/base/networkpeer", "script_path" : "content/scripts/identifier and fixes.lua"
+		},
+		{ "hook_id" : "lib/network/base/handlers/basenetworkhandler", "script_path" : "content/scripts/identifier and fixes.lua"
+		},
+		{ "hook_id" : "lib/network/matchmaking/networkmatchmakingsteam", "script_path" : "content/scripts/identifier and fixes.lua"
+		},
+		{ "hook_id" : "lib/network/matchmaking/networkvoicechatsteam", "script_path" : "content/scripts/identifier and fixes.lua"
+		},
+		{ "hook_id" : "lib/managers/gameplaycentralmanager", "script_path" : "content/scripts/identifier and fixes.lua"
+		},
+		{ "hook_id" : "lib/units/interactions/interactionext", "script_path" : "content/scripts/identifier and fixes.lua"
+		},
+		{ "hook_id" : "lib/units/beings/player/states/playerdriving", "script_path" : "content/scripts/identifier and fixes.lua"
+		},
+		{ "hook_id" : "lib/units/beings/player/playerdamage", "script_path" : "content/scripts/identifier and fixes.lua"
+		},
+		{ "hook_id": "lib/network/handlers/unitnetworkhandler", "script_path": "content/scripts/identifier and fixes.lua"
+		},
+		{ "hook_id" : "lib/managers/playermanager", "script_path" : "content/scripts/identifier and fixes.lua"
+		},
+		{ "hook_id" : "lib/managers/preplanningmanager", "script_path" : "content/scripts/identifier and fixes.lua"
+		},
+		{ "hook_id" : "lib/managers/preplanningmanager", "script_path" : "content/scripts/preplanning.lua"
+		},
+		{ "hook_id" : "lib/managers/moneymanager", "script_path" : "content/scripts/preplanning.lua"
+		},
+		{ "hook_id" : "lib/network/base/handlers/connectionnetworkhandler", "script_path" : "content/scripts/identifier and fixes.lua"
+		},
+		{ "hook_id" : "core/lib/setups/coresetup", "script_path" : "content/scripts/CommandManager/Hooked/Core/CommandManager.lua"
+		},
+		{ "hook_id" : "lib/managers/chatmanager", "script_path" : "content/scripts/commandmanager/Hooked/ChatManager.lua"
+		},
+		{ "hook_id" : "lib/managers/hud/hudchat", "script_path" : "content/scripts/commandmanager/Hooked/HUDChat.lua"
+		},
+		{ "hook_id" : "lib/tweak_data/tweakdata", "script_path" : "content/scripts/tweakdata/MeleeWeaponsTweakData.lua"
+		},
+		{ "hook_id":"lib/tweak_data/guitweakdata", "script_path":"content/scripts/tweakdata/GuiTweakData.lua"
+		},
+		{ "hook_id":"lib/network/base/networkmanager", "script_path":"content/scripts/commandmanager/Addons/Scripts/automsg.lua"
+		},
+		{ "hook_id":"lib/units/props/drill", "script_path":"content/scripts/drillhitchance.lua"
+		},
+		{ "hook_id" : "lib/units/beings/player/states/playerstandard", "script_path" : "content/scripts/aimbot2.lua"
+		},
+		{ "hook_id" : "lib/managers/menumanagerpd2", "script_path" : "content/scripts/persisthook.lua"
+		},
+		{ "hook_id" : "lib/managers/gameplaycentralmanager", "script_path" : "content/scripts/commandmanager/Addons/Scripts/playtimer.lua"
+		},
+		{ "hook_id" : "lib/network/base/networkpeer", "script_path" : "content/scripts/persisthook.lua"
+		},
+		{ "hook_id" : "lib/managers/playermanager", "script_path" : "content/scripts/persisthook.lua"
+		},
+		{ "hook_id" : "lib/network/handlers/unitnetworkhandler", "script_path" : "content/scripts/persisthook.lua"
+		},
+		{ "hook_id" : "lib/units/props/zipline", "script_path" : "content/scripts/persisthook.lua"
+		},
+		{ "hook_id" : "lib/units/beings/player/playerdamage", "script_path" : "content/scripts/persisthook.lua"
+		},
+		{ "hook_id" : "lib/units/cameras/fpcameraplayerbase", "script_path" : "content/scripts/persisthook.lua"
+		},
+		{ "hook_id" : "lib/managers/trademanager", "script_path" : "content/scripts/persisthook.lua"
+		},
+		{ "hook_id" : "lib/units/weapons/projectiles/projectilebase", "script_path" : "content/scripts/persisthook.lua"
+		},
+		{ "hook_id" : "lib/managers/blackmarketmanager", "script_path" : "content/scripts/persisthook.lua"
+		},
+		{ "hook_id" : "lib/setups/gamesetup", "script_path" : "content/scripts/xray.lua"
+		},
+		{ "hook_id" : "lib/managers/menumanagerpd2", "script_path" : "content/scripts/wep skin unlocker.lua"
+		},
+		{ "hook_id" : "lib/managers/blackmarketmanager", "script_path" : "content/scripts/wep skin unlocker.lua"
+		},
+		{ "hook_id" : "lib/tweak_data/guitweakdata", "script_path" : "content/scripts/wep skin unlocker.lua"
+		},
+		{ "hook_id" : "lib/network/base/basenetworksession", "script_path" : "content/scripts/spoofequipment.lua"
+		},
+		{ "hook_id" : "lib/managers/dlcmanager", "script_path" : "content/scripts/persisthook.lua"
+		},
+		{ "hook_id" : "lib/managers/blackmarketmanager", "script_path" : "content/scripts/spoofequipment.lua"
+		},
+		{ "hook_id" : "lib/managers/blackmarketmanager", "script_path" : "content/scripts/persisthook.lua"
+		},
+		{ "hook_id" : "lib/units/vehicles/animatedvehiclebase", "script_path" : "content/scripts/kill sentries.lua"
+		},
+		{ "hook_id" : "lib/units/beings/player/playerdamage", "script_path" : "content/scripts/damage reflect.lua"
+		},
+		{ "hook_id" : "lib/network/matchmaking/networkmatchmakingsteam", "script_path" : "content/scripts/reconnect.lua"
+		},
+		{ "hook_id" : "lib/units/beings/player/playerinventory", "script_path" : "content/scripts/spoofequipment.lua"
+		},
+		{ "hook_id" : "lib/managers/player/snipergrazedamage", "script_path" : "content/scripts/grazehit.lua"
+		},
+		{ "hook_id" : "lib/managers/statisticsmanager", "script_path" : "content/scripts/statestic.lua"
+		},
+		{ "hook_id" : "lib/network/handlers/unitnetworkhandler", "script_path":"content/scripts/convert no reload.lua"
+		},
+		{ "hook_id" : "lib/units/civilians/civiliandamage", "script_path" : "content/scripts/menus/godmodemenu.lua"
+		},
+		{ "hook_id" : "lib/managers/trademanager", "script_path" : "content/scripts/persisthook.lua"
+		},
+		{ "hook_id" : "lib/units/weapons/sentrygunweapon", "script_path" : "content/scripts/sentry crit.lua"
+		},
+		{ "hook_id" : "lib/managers/menu/lootdropscreengui", "script_path" : "content/scripts/identifier and fixes.lua"
+		},
+		{ "hook_id" : "lib/units/weapons/bowweaponbase", "script_path" : "content/scripts/identifier and fixes.lua"
+		},
+		{ "hook_id": "lib/units/weapons/raycastweaponbase", "script_path": "content/scripts/ap sentries.lua" 
+		},
+		{ "hook_id" : "lib/network/base/networkpeer", "script_path": "content/scripts/identifier.lua"
+		},
+		{ "hook_id": "lib/network/base/networkpeer", "script_path": "content/scripts/geolocator.lua" 
+		}
+	],
+	"keybinds" : [
+		{
+            "keybind_id" : "keybind_to_xray",
+            "name" : "Xray",
+            "description" : "enable disable xray",
+            "script_path" : "content/scripts/xray.lua",
+            "run_in_menu" : false,
+            "run_in_game" : true,
+            "localized" : false
+        },
+		{
+            "keybind_id" : "keybind_to_xrayteam",
+            "name" : "Xray Team",
+            "description" : "enable disable xray for your team",
+            "script_path" : "content/scripts/xrayshare.lua",
+            "run_in_menu" : false,
+            "run_in_game" : true,
+            "localized" : false
+        },
+		{
+            "keybind_id" : "keybind_to_teleport",
+            "name" : "Teleport",
+            "description" : "enable teleporting",
+            "script_path" : "content/scripts/teleport.lua",
+            "run_in_menu" : false,
+            "run_in_game" : true,
+            "localized" : false
+        },
+		{
+            "keybind_id" : "keybind_to_secureall",
+            "name" : "Secure Loot And Small Loot (In Menu Too)",
+            "description" : "enable secureall",
+            "script_path" : "content/scripts/secureloot.lua",
+            "run_in_menu" : false,
+            "run_in_game" : true,
+            "localized" : false
+        },
+		{
+            "keybind_id" : "keybind_to_refresh",
+            "name" : "Refresh Health And Equipment",
+            "description" : "enable refresh",
+            "script_path" : "content/scripts/refresh.lua",
+            "run_in_menu" : false,
+            "run_in_game" : true,
+            "localized" : false
+        },
+		{
+            "keybind_id" : "keybind_to_invisiblewalls",
+            "name" : "Walk Out Of Map And Shoot Through Walls",
+            "description" : "enable disable invisiblewalls",
+            "script_path" : "content/scripts/invisiblewalls.lua",
+            "run_in_menu" : false,
+            "run_in_game" : true,
+            "localized" : false
+        },
+		{
+            "keybind_id" : "keybind_to_carrystacker",
+            "name" : "Carrystacker",
+            "description" : "enable carrying more then one bag",
+            "script_path" : "content/scripts/carrystacker_client.lua",
+            "run_in_menu" : true,
+            "run_in_game" : true,
+            "localized" : false
+        },
+		{
+            "keybind_id" : "keybind_to_sentryspawn",
+            "name" : "Spawn Sentry",
+            "description" : "enable sentryspawn",
+            "script_path" : "content/scripts/sentryspawn.lua",
+            "run_in_menu" : false,
+            "run_in_game" : true,
+            "localized" : false
+        },
+		{
+            "keybind_id" : "keybind_to_ecm",
+            "name" : "Spawn ECM Jammer",
+            "description" : "enable ecm",
+            "script_path" : "content/scripts/ecm.lua",
+            "run_in_menu" : false,
+            "run_in_game" : true,
+            "localized" : false
+        },
+		{
+            "keybind_id" : "keybind_to_firstaid",
+            "name" : "Spawn First Aid Kit",
+            "description" : "enable firstaid",
+            "script_path" : "content/scripts/firstaid.lua",
+            "run_in_menu" : false,
+            "run_in_game" : true,
+            "localized" : false
+        },
+		{
+            "keybind_id" : "keybind_to_doctor",
+            "name" : "Spawn Doctor Bag",
+            "description" : "enable doctor",
+            "script_path" : "content/scripts/doctor.lua",
+            "run_in_menu" : false,
+            "run_in_game" : true,
+            "localized" : false
+        },
+		{
+            "keybind_id" : "keybind_to_ammo",
+            "name" : "Spawn Ammo",
+            "description" : "enable ammo",
+            "script_path" : "content/scripts/ammo.lua",
+            "run_in_menu" : false,
+            "run_in_game" : true,
+            "localized" : false
+        },
+		{
+            "keybind_id" : "keybind_to_tripmine",
+            "name" : "Spawn Tripmine",
+            "description" : "enable tripmine",
+            "script_path" : "content/scripts/tripmine.lua",
+            "run_in_menu" : false,
+            "run_in_game" : true,
+            "localized" : false
+        },
+		{
+            "keybind_id" : "keybind_to_Granadecase",
+            "name" : "Spawn Granade Case (Host Only)",
+            "description" : "enable granadecase",
+            "script_path" : "content/scripts/granadecase.lua",
+            "run_in_menu" : false,
+            "run_in_game" : true,
+            "localized" : false
+        },
+		{
+            "keybind_id" : "keybind_to_bodybag",
+            "name" : "Spawn Body Bag Case",
+            "description" : "enable bodybag",
+            "script_path" : "content/scripts/bodybag.lua",
+            "run_in_menu" : false,
+            "run_in_game" : true,
+            "localized" : false
+        },
+		{
+            "keybind_id" : "keybind_to_killall",
+            "name" : "Kill Units",
+            "description" : "enable killall",
+            "script_path" : "content/scripts/killall.lua",
+            "run_in_menu" : false,
+            "run_in_game" : true,
+            "localized" : false
+        },
+		{
+            "keybind_id" : "keybind_to_killplayers",
+            "name" : "Kill Players",
+            "description" : "enable killplayers",
+            "script_path" : "content/scripts/killplayers.lua",
+            "run_in_menu" : false,
+            "run_in_game" : true,
+            "localized" : false
+        },
+		{
+            "keybind_id" : "keybind_to_spawnmenu",
+            "name" : "Spawn Menu (In Game)",
+            "description" : "enable spawnmenu",
+            "script_path" : "content/scripts/menus/spawnmenu.lua",
+            "run_in_menu" : true,
+            "run_in_game" : true,
+            "localized" : false
+        },
+		{
+            "keybind_id" : "keybind_to_magicmenu",
+            "name" : "Magic Menu (In Game)",
+            "description" : "enable magicmenu",
+            "script_path" : "content/scripts/menus/magicmenu.lua",
+            "run_in_menu" : false,
+            "run_in_game" : true,
+            "localized" : false
+        },
+		{
+            "keybind_id" : "keybind_to_missionmenu",
+            "name" : "Mission Menu (In Game)",
+            "description" : "enable missionmenu",
+            "script_path" : "content/scripts/menus/missionmenu.lua",
+            "run_in_menu" : false,
+            "run_in_game" : true,
+            "localized" : false
+        },
+		{
+            "keybind_id" : "keybind_to_godmodemenu",
+            "name" : "Godmode Menu (In Game)",
+            "description" : "enable godmodemenu",
+            "script_path" : "content/scripts/menus/godmodemenu.lua",
+            "run_in_menu" : false,
+            "run_in_game" : true,
+            "localized" : false
+        },
+		{
+            "keybind_id" : "keybind_to_crossmenu",
+            "name" : "Crosshair Menu (In Game)",
+            "description" : "enable crossmenu",
+            "script_path" : "content/scripts/menus/crossmenu.lua",
+            "run_in_menu" : false,
+            "run_in_game" : true,
+            "localized" : false
+        },
+		{
+            "keybind_id" : "keybind_to_Pre Game Menu",
+            "name" : "Pre Game Menu",
+            "description" : "enable Pre Game Menu",
+            "script_path" : "content/scripts/menus/pregamemenu.lua",
+            "run_in_menu" : true,
+            "run_in_game" : true,
+            "localized" : false
+        },
+		{
+            "keybind_id" : "keybind_to_teammainmenu",
+            "name" : "Team Menu",
+            "description" : "enable teammainmenu",
+            "script_path" : "content/scripts/menus/teammainmenu.lua",
+            "run_in_menu" : false,
+            "run_in_game" : true,
+            "localized" : false
+        },
+		{
+            "keybind_id" : "keybind_to_mainmenu",
+            "name" : "Main Menu",
+            "description" : "enable mainmenu",
+            "script_path" : "content/scripts/menus/mainmenu.lua",
+            "run_in_menu" : true,
+            "run_in_game" : true,
+            "localized" : false
+        },
+		{
+            "keybind_id" : "keybind_to_eventmenu",
+            "name" : "Event Menu",
+            "description" : "enable eventmenu",
+            "script_path" : "content/scripts/menus/eventmenu.lua",
+            "run_in_menu" : false,
+            "run_in_game" : true,
+            "localized" : false
+        },
+		{
+            "keybind_id" : "keybind_to_infamy",
+            "name" : "Set Infamy",
+            "description" : "enable infamy",
+            "script_path" : "content/scripts/set infamy.lua",
+            "run_in_menu" : true,
+            "run_in_game" : true,
+            "localized" : false
+        },
+		{
+            "keybind_id" : "geolocator_keybind",
+            "name" : "Geolocator",
+            "description" : "Show geolocation of all players.",
+            "script_path" : "content/scripts/geolocator.lua",
+            "run_in_menu" : false,
+            "run_in_game" : true,
+            "localized" : false
+        }
+    ]
+}

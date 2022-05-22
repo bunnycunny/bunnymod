@@ -1,0 +1,62 @@
+{
+  "config": {
+    "mod_list": [ {
+      "enable": false,
+      "name": "SuperBLT"
+    }, {
+      "enable": false,
+      "name": "Lobby Settings"
+    }, {
+      "enable": false,
+      "name": "WolfHUD"
+    }, {
+      "enable": false,
+      "name": "XP Bank"
+    }, {
+      "enable": false,
+      "name": "The Cooker"
+    }, {
+      "enable": false,
+      "name": "Perk Logic"
+    }, {
+      "enable": false,
+      "name": "True AP Sentries"
+    }, {
+      "enable": false,
+      "name": "Advance Anti Crash"
+    }, {
+      "enable": false,
+      "name": "Economizer"
+    }, {
+      "enable": false,
+      "name": "Gear Changer"
+    }, {
+      "enable": false,
+      "name": "HD Masks"
+    }, {
+      "enable": false,
+      "name": "Lobby Player Info"
+    }, {
+      "enable": false,
+      "name": "Chat Translator"
+    }, {
+      "enable": false,
+      "name": "Equipment Stacker"
+    }, {
+      "enable": false,
+      "name": "SaveEquipment Reborn"
+    }, {
+      "enable": false,
+      "name": "Chat Info"
+    }, {
+      "enable": false,
+      "name": "Hud Effects"
+    }, {
+      "enable": false,
+      "name": "Menu Backgrounds"
+    }, {
+      "enable": false,
+      "name": "XP Briefings"
+    } ]
+  }
+}
