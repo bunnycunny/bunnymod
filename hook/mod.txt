@@ -5,21 +5,10 @@
 	"contact" : "playhouse",
 	"version" : "1",
 	"blt_version" : 2,
-	"image" : "vip.png",
 	"priority" : 1,
 	"undisablable" : false,
 	"disable_safe_mode" : true,
 	"color": "0 46 255",
-	"updates" : [
-		{
-			"identifier" : "id60123098dfkjhb34hookmod",
-			"host" : {
-				"meta" : "https://github.com/Mayzone/auto-update/raw/master/updater.json",
-				"download" : "https://github.com/Mayzone/auto-update/raw/master/hook.zip",
-				"patchnotes" : "https://github.com/Mayzone/auto-update"
-			}
-		}
-	],
 	"hooks" : [
 		{ "hook_id" : "lib/managers/localizationmanager", "script_path":"content/scripts/menus/mod options.lua"
 		},
